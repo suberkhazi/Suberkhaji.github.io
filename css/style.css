@@ -4,9 +4,9 @@
 /* colors */
 
 :root {
-   --primary : #1a253f;
-   --dark : #1a276b;
-   --secondary : #2b55cc;
+   --primary : #111e3d;
+   --dark : #020b38;
+   --secondary : #060c1f;
    --info : #4d79f6;
    --tenary : #848db3;
    --pure : #eff2f9;
@@ -44,3 +44,34 @@ h1, h2, h3, h4, h5, h6 {
    max-width: 1140px;
    margin:0 auto;
 }
+
+nav {
+   background: var(--primary);
+   padding: 1.6rem o;
+}
+
+nav .inner {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav .inner .logo {
+   text-transform: uppercase;
+   color: var(--pure);
+   font: size 18px; 
+   letter-spacing: 1px;
+   font-weight: 500;
+}
+nav .inner .logo i {
+   color: var(--info);
+}
+
+nav .inner button {
+   background: var(--secondary);
+   border: none;
+   padding: 0.6rem 1rem;
+   color: var(--pure);
+   font-size: 14px;
+   border-radius: 4px;
+}
+
